@@ -15,7 +15,17 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@seed-work-space/product/feature-listing": [
+        "libs/product/feature-listing/src/index.ts"
+      ],
+      "@seed-work-space/product/da-listing": [
+        "libs/product/da-listing/src/index.ts"
+      ],
+      "@seed-work-space/product/ui-listing": [
+        "libs/product/ui-listing/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
